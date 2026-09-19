@@ -9,7 +9,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     lito = {
-      url = "github:Sreehari425/lito/drv"; # NOTE: This is place holder
+      url = "github:litocpp/lito";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };
